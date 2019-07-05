@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f77ecd29-f3bb-4094-ae53-d75f6c11062e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Bert源码解读/模型主体源码.md" afterPath="$PROJECT_DIR$/Bert源码解读/模型主体源码.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="modeling.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modeling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1087">
-              <caret line="484" column="78" lean-forward="true" selection-start-line="484" selection-start-column="78" selection-end-line="484" selection-end-column="78" />
+            <state relative-caret-position="217">
+              <caret line="140" column="36" lean-forward="true" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
               <folding>
                 <element signature="e#665#703#0" expanded="true" />
               </folding>
@@ -47,11 +47,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>transformer</find>
-      <find>embedding_postprocessor</find>
       <find>reshape_to_matrix</find>
       <find>estimator</find>
       <find>1.1</find>
       <find>main</find>
+      <find>embedding_postprocessor</find>
+      <find>token_type_ids</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,8 +62,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/modeling.py" />
         <option value="$PROJECT_DIR$/run_squad.py" />
+        <option value="$PROJECT_DIR$/modeling.py" />
+        <option value="$PROJECT_DIR$/extract_features.py" />
       </list>
     </option>
   </component>
@@ -305,6 +307,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -338,21 +341,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tokenization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/create_pretraining_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extract_features.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -374,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_pretraining.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1677">
-          <caret line="76" column="49" lean-forward="true" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run_squad.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -389,10 +371,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tokenization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5463">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="238" column="69" lean-forward="true" selection-start-line="238" selection-start-column="69" selection-end-line="238" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_pretraining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modeling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1087">
-          <caret line="484" column="78" lean-forward="true" selection-start-line="484" selection-start-column="78" selection-end-line="484" selection-end-column="78" />
+        <state relative-caret-position="217">
+          <caret line="140" column="36" lean-forward="true" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
           <folding>
             <element signature="e#665#703#0" expanded="true" />
           </folding>
